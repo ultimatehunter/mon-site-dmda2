@@ -1,0 +1,134 @@
+@font-face {
+	font-family: "supermario";
+	src:url("SuperMario256.ttf");
+}
+
+@font-face {
+	font-family: "Montserrat-ExtraBold";
+	src: url("Montserrat-ExtraBold.ttf");
+}
+
+@font-face {
+	font-family: "Montserrat-Regular";
+	src: url("Montserrat-Regular.ttf");
+}
+
+.body{
+	margin: 60px
+}
+.haut{
+	background-color: #0057b8;
+	overflow: auto;
+}
+
+
+h1{
+	color: white;
+	font-family: supermario;
+	font-size: 110px;
+}
+
+h2{
+	color: white;
+	font-size: 80px;
+	font-family: Montserrat-ExtraBold;
+}
+
+.navbar{
+	border: 4px solid red;
+	border-radius: 12px;
+	display: justify-content: space-around;
+	background-color: white;
+}
+.nomdemarque{
+	margin-top: 100px;
+}
+.logonintendo{ 
+	display: flex;
+	justify-content: flex-end;
+	}
+
+h3{ 
+color: white;
+font-size: 80px;
+text-align: center;
+margin-bottom: 70px;
+margin-top: 30px;
+font-family: Montserrat-ExtraBold;
+}
+
+.part2{
+	background-color: #29b14f;
+}
+
+.concept{
+	color: white;
+	font-size: 50px;
+	display: flex;
+	align-self: center;
+	justify-content: center;
+	font-family: Montserrat-Regular;
+}
+
+.cartes{
+	display: flex;
+	align-content: row;
+	margin-top: 150px;
+	margin-bottom: 50px;
+}
+.card {
+	background-color: transparent;
+	border: none;
+	width: 35%;
+
+}
+
+.part3{
+	background-color: #eb1320;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+h4{ 
+color: white;
+font-size: 80px;
+display: flex;
+justify-content: center;
+margin-top: 50px;
+margin-bottom: 80px;
+font-family: Montserrat-ExtraBold;
+
+}
+
+h5{
+	color: black;
+	font-size: 50px;
+}
+
+.s{
+	font-size: 25px;
+	color: black;
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+.fond1{ width: 100%;
+}
+h1{
+	font-size: 60px;
+
+}
+
+h2{ font-size: 25px; }
+
+.mariofond1 {
+	width: 100%;
+}
+.concept{
+	font-size: 20px;
+margin: 25px;}
+h3{ font-size: 25px; }
+h4{ font-size: 25px; }
+h5{ font-size: 20px; }
+}
